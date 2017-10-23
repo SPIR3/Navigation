@@ -16,10 +16,17 @@
   <div data-role="header">
     <h1>Welcome To My Homepage</h1>
   </div>
+        <!-- code for pannel navigation menu -->
+        <div data-role="panel" id="myPanel">
+        <h2>Panel Header..</h2>
+        <p>Some text..</p>
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+        </div>
 
   <div data-role="main" class="ui-content">
     <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
-    <a href="#pagetwo">Go to Page Two</a>
+    <a href="#pagetwo">Go to Page Two</a><br>
+    <a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
   </div>
 
   <div data-role="footer">
@@ -31,16 +38,42 @@
   <div data-role="header">
     <h1>Welcome To My Homepage</h1>
   </div>
+        <div data-role="panel" id="myPanel">
+        <h2>Panel Header..</h2>
+        <p>Some text..</p>
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+        </div>
 
   <div data-role="main" class="ui-content">
-    <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
-    <a href="#pageone">Go to Page One</a>
+    <p>This is Page Two. If you click on the link below, it will take you to Page Three.</p>
+    <a href="#pagethree">Go to Page Three</a><br>
+    <a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
   </div>
+      <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+    </div>
 
+    <div data-role="page" id="pagethree">
+  <div data-role="header">
+    <h1>This is an extra page.</h1>
+  </div>
+        <div data-role="panel" id="myPanel">
+        <h2>Panel Header..</h2>
+        <p>Some text..</p>
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+        </div>
+
+  <div data-role="main" class="ui-content">
+    <p>This is Page Three. If you click on the link below, it will take you to Page One.</p>
+    <a href="#pageone">Go to Page One</a><br>
+    <a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+  </div>
+        
   <div data-role="footer">
     <h1>Footer Text</h1>
   </div>
-</div> 
+</div>
 
 </body>
 </html>
